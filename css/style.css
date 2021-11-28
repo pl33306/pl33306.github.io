@@ -325,7 +325,8 @@ img {
 .pic1 {
   width: 336px;
   height: 260px;
-  left: 10px;
+  text-align: center;
+  margin:0 auto;
   margin-top: 10px;
   position: relative;
   background-color: #eaeaea;
@@ -340,7 +341,8 @@ img {
 .pic2 {
   width: 336px;
   height: 290px;
-  left: 10px;
+  text-align: center;
+  margin:0 auto;
   margin-top: 10px;
   position: relative;
   background-color: #eaeaea;
