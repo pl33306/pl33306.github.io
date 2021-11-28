@@ -325,7 +325,7 @@ img {
 .pic1 {
   width: 336px;
   height: 260px;
-  left: 20px;
+  left: 10px;
   margin-top: 10px;
   position: relative;
   background-color: #eaeaea;
@@ -340,7 +340,7 @@ img {
 .pic2 {
   width: 336px;
   height: 290px;
-  left: 20px;
+  left: 10px;
   margin-top: 10px;
   position: relative;
   background-color: #eaeaea;
