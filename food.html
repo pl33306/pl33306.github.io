@@ -24,7 +24,7 @@
 		function gundongtp(){
 		    var xsqy = document.getElementById("xsquyu");
 		    var imgarray=new Array(4); 
-		    for(var i=0;i<imgarray.length;i++){
+		    for(var i=1;i<imgarray.length;i++){
 		        var xsimg=document.createElement("img");
 		        xsimg.setAttribute("id","tpquyu");
 		        xsimg.setAttribute("src", "img/sjs"+i+".jpg");
@@ -44,13 +44,13 @@
 		    function fnMove(){     
 				var yidong=3;
 		        var zdleft=0;
-		        for(var i=0;i<imgarray.length;i++){
+		        for(var i=1;i<imgarray.length;i++){
 		            imgarray[i].style.left=imgarray[i].offsetLeft-yidong+"px";
 		            if(imgarray[i].offsetLeft>zdleft){
 		                zdleft=imgarray[i].offsetLeft;
 		            }
 		        }
-		        for(var i=0;i<imgarray.length;i++){
+		        for(var i=1;i<imgarray.length;i++){
 		            if((imgarray[i].offsetLeft+imgarray[i].offsetWidth)<=0){
 		                if((zdleft+300)>1000){
 		                    imgarray[i].style.left=zdleft+300+"px";
